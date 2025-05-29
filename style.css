@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to top, #cceeff, #ffffff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #007acc;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #eef;
+  font-size: 20px;
+}
+
+#game {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: 3px solid #333;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  position: relative;
+  overflow: hidden;
+}
+
+#player {
+  width: 60px;
+  height: 60px;
+  background: url('https://i.imgur.com/h9Z1zNv.png') no-repeat center/contain;
+  position: absolute;
+  bottom: 10px;
+  left: 270px;
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.buena {
+  background-color: #d4edda;
+  color: #155724;
+  border: 2px solid #a4caa4;
+}
+
+.mala {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 2px solid #e09a9a;
+}
